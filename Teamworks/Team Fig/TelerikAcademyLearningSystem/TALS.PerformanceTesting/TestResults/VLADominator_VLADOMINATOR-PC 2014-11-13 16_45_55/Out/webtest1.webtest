@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="2f2882c5-9a44-40ea-a7a9-8dc54261f721" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.f5043dbc-9672-4e25-9cc9-e8fb1f4df139.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="1bdf426e-c063-4245-884a-579e1a5d7009" Version="1.1" Url="http://test.telerikacademy.com/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="97a26625-6f67-41ab-91d3-c8a3d990bc74" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="31" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="4f5018b7-7a45-4208-bdec-ec39027ac3d4" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Users/Auth/Login" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UsernameOrEmail" Value="TestUser2" RecordedValue="TestUser2" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="testtest" RecordedValue="testtest" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="293173af-8803-411d-9c49-1d008b6e39b2" Version="1.1" Url="http://test.telerikacademy.com/Administration/Navigation" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="27c77494-dc53-44f1-891d-8df95ee11eac" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="36f9ea11-51b5-4c2b-aaaa-9e55ecf53eb6" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentsRead" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="sort" Value="UploadDate-asc" RecordedValue="UploadDate-asc" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="page" Value="1" RecordedValue="1" CorrelationBinding="{{FormPostParam1.page}}" UrlEncode="True" />
+            <FormPostParameter Name="pageSize" Value="25" RecordedValue="25" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="filter" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration/Navigation" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.page" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="1" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.KidsSchoolId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="8" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.KidsSchoolDocumentTypeId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="dex=&quot;" />
+            <RuleParameter Name="EndsWith" Value="&quot; dat" />
+            <RuleParameter Name="Index" Value="2" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="GET" Guid="e56fd48d-bb68-46c6-b88f-8ac8bb43fc2b" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentCreate" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="80674db0-3d18-4fe8-a516-b723d9e2f65d" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/TeacherAdministrationKidsSchoolDocuments/GetAllDropdownKidsSchoolDocumentTypesJsonResult" ThinkTime="50" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentCreate" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam383.kidsSchoolId" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?kidsSchoolId=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="d6cda4a8-0a3a-4c6e-ad52-bdfd374760cc" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentCreate" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentCreate" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="kidsSchoolId" Value="0" RecordedValue="0" CorrelationBinding="{{QueryStringParam383.kidsSchoolId}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="KidsSchoolId" Value="8" RecordedValue="8" CorrelationBinding="{{FormPostParam2.KidsSchoolId}}" UrlEncode="True" />
+        <FormPostParameter Name="KidsSchoolDocumentTypeId" Value="2" RecordedValue="2" CorrelationBinding="{{FormPostParam3.KidsSchoolDocumentTypeId}}" UrlEncode="True" />
+        <FormPostParameter Name="Name" Value="TestDocument" RecordedValue="TestDocument" CorrelationBinding="" UrlEncode="True" />
+        <FileUploadParameter Name="File" FileName="testDocument.txt" ContentType="text/plain" GenerateUniqueName="True" UseGuids="False" FileUploadName="" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="ffab7918-5313-4f1d-8f4e-f20d0fa2f2aa" Version="1.1" Url="http://test.telerikacademy.com/KidsAcademy/AdministrationNavigation" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationKidsSchoolsDocuments/KidsSchoolDocumentCreate" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="90c52ea1-fdea-4202-a967-149a08342890" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/LogOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/KidsAcademy/AdministrationNavigation" />
+      </Headers>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>

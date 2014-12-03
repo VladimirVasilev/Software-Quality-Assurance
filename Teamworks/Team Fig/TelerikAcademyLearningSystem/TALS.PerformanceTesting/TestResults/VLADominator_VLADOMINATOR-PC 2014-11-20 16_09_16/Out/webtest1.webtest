@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="67c5fd96-a999-4909-bd8a-44eb3ad1af60" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.40a5f792-ed72-4598-b2c9-bbf63c639870.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="c917bde0-77d0-4f66-89a4-cbf4269f451b" Version="1.1" Url="http://test.telerikacademy.com/" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="1725fe93-8a03-4053-8242-b4248b237376" Version="1.1" Url="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f203ad00f8aea58&amp;origin=http%3A%2F%2Ftest.telerikacademy.com" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="41" RecordedValue="41" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Ftest.telerikacademy.com" RecordedValue="http%3A%2F%2Ftest.telerikacademy.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="b7c2c0e7-887c-43a5-88d6-c72fa3161d93" Version="1.1" Url="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f203ad00f8aea58&amp;origin=http%3A%2F%2Ftest.telerikacademy.com" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="41" RecordedValue="41" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Ftest.telerikacademy.com" RecordedValue="http%3A%2F%2Ftest.telerikacademy.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="0b3bda95-9002-4e83-a097-7f98432fca0c" Version="1.1" Url="https://www.facebook.com/connect/ping" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="domain" Value="test.telerikacademy.com" RecordedValue="test.telerikacademy.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df317444efad5e08%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df317444efad5e08%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="token%2Csigned_request%2Ccode" RecordedValue="token%2Csigned_request%2Ccode" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="1ec03abe-0c09-46cb-92b3-adca05a903d3" Version="1.1" Url="http://www.facebook.com/plugins/like_box.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1ac50a1fd238e5%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam160.domain" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;domain=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="app_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1ac50a1fd238e5%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1ac50a1fd238e5%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="header" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="height" Value="468" RecordedValue="468" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="href" Value="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" RecordedValue="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="stream" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="a0f04e36-0921-48b0-abac-a996a07d95e9" Version="1.1" Url="https://www.facebook.com/plugins/likebox/stream" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1ac50a1fd238e5%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff203ad00f8aea58%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="247838771909081" RecordedValue="247838771909081" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dom" Value="pluginLikeboxStream" RecordedValue="pluginLikeboxStream" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="force_wall" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="nobootload" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="inlinecss" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__user" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__a" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__dyn" Value="7wfGbx679uC0DU98nwgU" RecordedValue="7wfGbx679uC0DU98nwgU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__req" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__rev" Value="1501910" RecordedValue="1501910" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="59a68c90-6090-4074-91cb-97addeb1f44b" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="POST" Guid="89a0dd35-b854-4894-a7be-978ab117b24f" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/Login" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Users/Auth/Login" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UsernameOrEmail" Value="demo12" RecordedValue="demo12" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="qwerty" RecordedValue="qwerty" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="7715acce-6f32-4097-ba7b-c6cafee46a98" Version="1.1" Url="https://www.facebook.com/connect/ping" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="domain" Value="test.telerikacademy.com" RecordedValue="test.telerikacademy.com" CorrelationBinding="{{QueryStringParam160.domain}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df17b9eaabb4705%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df17b9eaabb4705%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="token%2Csigned_request%2Ccode" RecordedValue="token%2Csigned_request%2Ccode" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="d0a71fb5-238a-4f44-9fa8-e52ee7e46f0f" Version="1.1" Url="http://www.facebook.com/plugins/like_box.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1636e030156f0a%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="84e4ee5c-e53b-4a4a-9016-e69ab7aeab14" Version="1.1" Url="https://www.facebook.com/plugins/likebox/stream" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1636e030156f0a%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="id" Value="247838771909081" RecordedValue="247838771909081" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="dom" Value="pluginLikeboxStream" RecordedValue="pluginLikeboxStream" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="force_wall" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="nobootload" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="inlinecss" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="__user" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="__a" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="__dyn" Value="7wfGbx679uC0DU98nwgU" RecordedValue="7wfGbx679uC0DU98nwgU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="__req" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+            <QueryStringParameter Name="__rev" Value="1501910" RecordedValue="1501910" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam389.version" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?version=" />
+            <RuleParameter Name="EndsWith" Value="#" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam403.version" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?version=" />
+            <RuleParameter Name="EndsWith" Value="#" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam466.domain" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="&amp;domain=" />
+            <RuleParameter Name="EndsWith" Value="&amp;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="app_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1636e030156f0a%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df1636e030156f0a%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff304d83f2568514%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="header" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="height" Value="468" RecordedValue="468" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="href" Value="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" RecordedValue="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="stream" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="c8a71c95-9064-473a-9ffc-432a09b869cd" Version="1.1" Url="http://test.telerikacademy.com/Administration/Navigation" ThinkTime="10" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="328015ec-856e-4102-a491-74264bfaf150" Version="1.1" Url="http://test.telerikacademy.com/Administration_Calendar/Holidays" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="POST" Guid="1c7658d0-d08e-4f16-9fb0-ee2dcff86f1e" Version="1.1" Url="http://test.telerikacademy.com/Administration_Calendar/Holidays/HolidaysRead" ThinkTime="19" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Accept" Value="*/*" />
+            <Header Name="X-Requested-With" Value="XMLHttpRequest" />
+            <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Calendar/Holidays" />
+          </Headers>
+          <FormPostHttpBody>
+            <FormPostParameter Name="sort" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="group" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+            <FormPostParameter Name="filter" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+          </FormPostHttpBody>
+        </Request>
+      </DependentRequests>
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration/Navigation" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="5bcacccc-0b9c-4030-afe6-53accb991305" Version="1.1" Url="http://test.telerikacademy.com/Users/Auth/LogOut" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://test.telerikacademy.com/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/Administration_Calendar/Holidays" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1d56ab93-baec-4a00-85e9-fc9bc2b17fa1" Version="1.1" Url="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f251e3dde063f4c&amp;origin=http%3A%2F%2Ftest.telerikacademy.com" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="41" RecordedValue="41" CorrelationBinding="{{QueryStringParam389.version}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Ftest.telerikacademy.com" RecordedValue="http%3A%2F%2Ftest.telerikacademy.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="03827570-acd2-4116-81f3-932eed89ddee" Version="1.1" Url="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f251e3dde063f4c&amp;origin=http%3A%2F%2Ftest.telerikacademy.com" ReportingName="" IgnoreHttpStatusCode="False">
+      <QueryStringParameters>
+        <QueryStringParameter Name="version" Value="41" RecordedValue="41" CorrelationBinding="{{QueryStringParam403.version}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="http%3A%2F%2Ftest.telerikacademy.com" RecordedValue="http%3A%2F%2Ftest.telerikacademy.com" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="da1667fa-a4c6-483e-941c-c8f0233cde21" Version="1.1" Url="https://www.facebook.com/connect/ping" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="client_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="domain" Value="test.telerikacademy.com" RecordedValue="test.telerikacademy.com" CorrelationBinding="{{QueryStringParam466.domain}}" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="origin" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="redirect_uri" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df13da29fdf19489%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df13da29fdf19489%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="response_type" Value="token%2Csigned_request%2Ccode" RecordedValue="token%2Csigned_request%2Ccode" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="061b8a66-33de-4b60-a96b-bf6a01a177b5" Version="1.1" Url="http://www.facebook.com/plugins/like_box.php" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2d7fe59f7e25e8%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://test.telerikacademy.com/" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="app_id" Value="242624699174333" RecordedValue="242624699174333" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="channel" Value="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2d7fe59f7e25e8%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent.parent" RecordedValue="http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2d7fe59f7e25e8%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent.parent" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="header" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="height" Value="468" RecordedValue="468" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="href" Value="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" RecordedValue="http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="sdk" Value="joey" RecordedValue="joey" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="show_faces" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="stream" Value="true" RecordedValue="true" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="f77983cf-f334-497f-bc56-2fb69560f65c" Version="1.1" Url="https://www.facebook.com/plugins/likebox/stream" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="https://www.facebook.com/plugins/like_box.php?app_id=242624699174333&amp;channel=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2d7fe59f7e25e8%26domain%3Dtest.telerikacademy.com%26origin%3Dhttp%253A%252F%252Ftest.telerikacademy.com%252Ff251e3dde063f4c%26relation%3Dparent.parent&amp;header=true&amp;height=468&amp;href=http%3A%2F%2Fwww.facebook.com%2FTelerikAcademy&amp;locale=en_US&amp;sdk=joey&amp;show_faces=false&amp;stream=true&amp;width=620" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="id" Value="247838771909081" RecordedValue="247838771909081" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="dom" Value="pluginLikeboxStream" RecordedValue="pluginLikeboxStream" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="force_wall" Value="false" RecordedValue="false" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="nobootload" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="inlinecss" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="width" Value="620" RecordedValue="620" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__user" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__a" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__dyn" Value="7wfGbx679uC0DU98nwgU" RecordedValue="7wfGbx679uC0DU98nwgU" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__req" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="locale" Value="en_US" RecordedValue="en_US" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="__rev" Value="1501910" RecordedValue="1501910" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
